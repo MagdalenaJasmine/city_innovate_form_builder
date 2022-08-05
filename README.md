@@ -14,9 +14,12 @@ What you can't do:
 - add different media types 
 - drag and drop 
 
-### Tradeoffs
+### Notes
+I chose to focus on the main functionality of adding and removing questions, changing question types and editing questions. If I were building this out in a work environnment, that would likely be the MVP. Once the main structure is in place, adding media types and drag and drop functionality would make sense as pieces to iterate on. 
 
-#Bugs/Things to Fix 
+I used MUI for this assignment as it offers some easy to use pre-built components and Icons which allowed me to focus on building out the main functionality rather than builiding every component from scratch. MUI is somewhat opinionated so if you need a very customized look and feel, it may make more sense to build the components yourself. 
+
+### Bugs/Things to Fix 
 - the question title and description form currently has some funky sizing on larger screens.
 - when you add an option to a question it automatically generates an option name which you then need to go back and edit 
 
