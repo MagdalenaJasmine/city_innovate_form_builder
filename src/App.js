@@ -1,14 +1,15 @@
-import FormHeader from "./FormHeader/FormHeader";
-import PageHeader from "./PageHeader/pageHeader";
-import QuestionForm from "./QuestionForm/QuestionForm";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import FormPage from "./FormPage";
+import LoginForm from "./Login/LoginForm";
 
 function App() {
   return (
-    <div className="App">
-      <PageHeader />
-      <FormHeader />
-      <QuestionForm />
-    </div>
+    <Router>
+      <Routes>
+        <Route exact path="/" element={<LoginForm />} />
+        <Route exact path="/form" element={<FormPage />} />
+      </Routes>
+    </Router>
   );
 }
 

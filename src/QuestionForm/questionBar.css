@@ -1,0 +1,16 @@
+.question_edit_bar {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+  margin-bottom: 0;
+  padding: 1px;
+  border-radius: 6px;
+  height: 180px;
+  width: 35px;
+}
+
+.edit {
+  color: #5f6368;
+  padding: 8px;
+}
