@@ -14,13 +14,13 @@ What you can't do:
 - add different media types 
 - drag and drop 
 
-##Tradeoffs
+### Tradeoffs
 
 #Bugs/Things to Fix 
 - the question title and description form currently has some funky sizing on larger screens.
 - when you add an option to a question it automatically generates an option name which you then need to go back and edit 
 
-##Screenshots 
+### Screenshots 
 
 
 <img width="1439" alt="Screen Shot 2022-08-05 at 3 41 18 PM" src="https://user-images.githubusercontent.com/62389500/183221409-4d006f6d-8769-437f-90ca-383d01b0ca21.png">
