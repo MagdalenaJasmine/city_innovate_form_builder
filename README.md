@@ -2,13 +2,13 @@
 This app was created using React and Material UI (MUI). 
 What you can do: 
 - login (there is no user auth for the login page for this assignment) 
-- Add a form title and description 
+- add a form title and description 
 - add questions
 - edit finished questions
 - change the question type. The question types are text, multiple choice, and checkbox 
 - edit the question and multiple choice or checkbox options 
 - remove multiple choice and checkbox options 
--delete questions 
+- delete questions 
 
 What you can't do: 
 - add different media types 
