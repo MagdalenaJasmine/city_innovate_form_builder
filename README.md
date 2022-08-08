@@ -79,7 +79,7 @@ Element is the next element inside the block which represents a singular unit in
 -Disadvantages
     - Easy to fall into the trap of viewing everything as a module. It takes a while to get used to the categories 
 #### Tailwind 
- -Tailwind provides a series of pre-written classes to work with. These classes are utility CSS, meaning many small, single-purpose classes that are assembled en masse to create an overall visual effect.
+ - Tailwind provides a series of pre-written classes to work with. These classes are utility CSS, meaning many small, single-purpose classes that are assembled en masse to create an overall visual effect.
 - Advantages: 
     - Utility CSS classes are easy to toggle and manage via JavaScript.
     - Instead of declaring lots of BEM classes that you reuse, you just style each element independently using utility classes, like bg-white for a white       background or text-lg for 18px font.
